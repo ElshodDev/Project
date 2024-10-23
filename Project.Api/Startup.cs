@@ -4,6 +4,7 @@
 //=================================================
 using Microsoft.AspNetCore.Builder;
 using Microsoft.OpenApi.Models;
+using Project.Api.Brokers.Storages;
 
 namespace Project.Api
 {
@@ -22,7 +23,7 @@ namespace Project.Api
                 Title="Project.Api",
                 Version="v1"
             };
-
+            services.AddDbContext<StorageBroker>();
             services.AddControllers();
 
             services.AddSwaggerGen(options =>
