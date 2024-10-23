@@ -1,6 +1,6 @@
 //=================================================
 //Copyright (c) Coalition of Good-Hearted Engineers
-// Free To use Comfort and peace
+// Free To Use To Find Comfort and peace
 //=================================================
 
 using Project.Api;
